@@ -3,10 +3,8 @@ Trouver les erreurs
     Dans cet exercice, vous devez corriger le script pour que la méthode
     set_position fonctionne correctement et modifie les attributs x, y et z de
     l'instance cube.
-
     Votre script doit donc redéfinir les valeurs de ces trois attributs qui
     devront être égaux à 1 pour x, 2 pour y et 3 pour z.
-
     Une fonction à l'intérieur d'une classe doit posséder un premier paramètre
     qui permette de récupérer l'instance (ce paramètre est, par convention,
     appelé self).

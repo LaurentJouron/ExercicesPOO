@@ -3,7 +3,6 @@ Ajouter les self
     Dans cet exercice, vous devez corriger le code pour qu'il fonctionne.
     La seule chose que vous devez rajouter, c'est le fameux self, qui pose
     beaucoup de problèmes aux débutants en programmation orientée objet.
-
     C'est le seul mot que vous devez ajouter.
     Le script final doit contenir self à 6 endroits différents.
     x, y et z doivent appartenir à l'instance mon_cube.

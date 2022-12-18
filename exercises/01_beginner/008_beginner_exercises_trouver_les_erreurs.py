@@ -4,7 +4,6 @@ Trouver les erreurs
 	retourne plus d'erreur et qu'il affiche les coordonnées x, y et z de
 	l'instance sphere avec des valeurs respectivement de 9, 2 et 5
 	(pour x, y et z).
-
 	Votre script doit donc afficher :
 	9
 	2
