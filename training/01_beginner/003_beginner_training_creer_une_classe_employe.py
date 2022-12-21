@@ -13,3 +13,12 @@ Astuces:
     N'oubliez pas de définir la méthode __init__ pour initialiser votre
     instance avec les 4 attributs demandés.
 """
+
+class Employe:
+    def __init__(self, prenom, nom, position, salaire):
+        self.prenom = prenom
+        self.nom = nom
+        self.position = position
+        self.salaire = salaire
+
+john = Employe('John', 'Smith', 'Developpeur Python', 45000)

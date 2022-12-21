@@ -7,8 +7,9 @@ Hériter de la classe list
 """
 
 
-class ListeCustom:
+class ListeCustom(list):
     pass
 
 
 liste = ListeCustom()
+liste.append(5)

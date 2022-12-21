@@ -13,13 +13,13 @@ Ajouter les self
 
 
 class Cube:
-    def __init__(x=5, y=2, z=7):
-        x = x
-        y = y
-        z = z
+    def __init__(self, x=5, y=2, z=7):
+        self.x = x
+        self.y = y
+        self.z = z
 
-    def move_x():
-        x += 1
+    def move_x(self):
+        self.x += 1
 
 
 mon_cube = Cube()

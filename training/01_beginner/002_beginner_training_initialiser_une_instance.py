@@ -1,8 +1,8 @@
 """
 Initialiser une instance:
     Dans cet exercice, vous devez initialiser l'instance harry_potter et créer
-     un attribut d'instance pour que l'instance ait un prix différent de celui
-     par défaut.
+    un attribut d'instance pour que l'instance ait un prix différent de celui
+    par défaut.
     L'instance harry_potter devra donc avoir un prix de 19,99€.
     L'attribut de classe prix de la classe Livre lui ne doit pas changer et
     doit rester à 9,99€.
@@ -20,5 +20,8 @@ Astuces:
 class Livre:
     prix = 9.99
 
+    def __init__(self, prix):
+        self.prix = prix
 
-harry_potter = Livre()
+
+harry_potter = Livre(19.99)

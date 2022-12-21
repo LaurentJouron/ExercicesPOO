@@ -34,6 +34,8 @@ class Employe:
         self.position = position
         self.salaire = salaire
 
+    def __repr__(self):
+        return f"{self.prenom} {self.nom}"
 
 employes = [
             ("Pierre", "Smith", "Responsable RH", 35000),

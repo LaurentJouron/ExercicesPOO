@@ -10,4 +10,5 @@ Astuces:
 
 
 class Livre:
-    pass
+    prix = 9.99
+

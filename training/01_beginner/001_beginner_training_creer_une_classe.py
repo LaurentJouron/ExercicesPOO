@@ -10,3 +10,7 @@ Astuces :
     Pour créer une classe, on utilise l'instruction class.
 """
 
+class Livre:
+    pass
+
+harry_potter =  Livre()

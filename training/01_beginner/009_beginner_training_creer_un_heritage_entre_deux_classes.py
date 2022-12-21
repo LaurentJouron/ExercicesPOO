@@ -26,9 +26,11 @@ class Shape:
         self.y = 0
 
 
-class Cube:
-    pass
-        
+class Cube(Shape):
+    def __init__(self, z=0):
+        super().__init__()
+        self.z = z
+
 cube = Cube()
 print(cube.x)
 print(cube.y)
