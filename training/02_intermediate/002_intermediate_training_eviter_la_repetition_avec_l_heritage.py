@@ -17,22 +17,25 @@ Astuces:
     parenthèses dans la définition de votre classe.
     Par exemple class MaClasse(Parent).
 """
-class Magicien:
-    def __init__(self, prenom, nom):
+
+
+class Personnage:
+    def __init__(self, prenom, nom, puissance):
         self.prenom = prenom
         self.nom = nom
-        self.puissance = 80
+        self.puissance = puissance
+
+
+class Magicien(Personnage):
+    def __init__(self, prenom, nom):
+        super().__init__(prenom, nom, puissance=80)
 
 
 class Gobelin:
     def __init__(self, prenom, nom):
-        self.prenom = prenom
-        self.nom = nom
-        self.puissance = 20
+        super().__init__(prenom, nom, puissance=20)
 
 
 class Chevalier:
     def __init__(self, prenom, nom):
-        self.prenom = prenom
-        self.nom = nom
-        self.puissance = 70
+        super().__init__(prenom, nom, puissance=70)

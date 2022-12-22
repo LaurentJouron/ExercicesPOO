@@ -1,11 +1,11 @@
-def Voiture:
-    class _init_(self):
-        marque = "Mazda"
-        couleur = "Rouge"
+class Voiture:
+    def __init__(self):
+        self.marque = "Mazda"
+        self.couleur = "Rouge"
 
-    def recuperer_couleur():
-        return couleur
+    def recuperer_couleur(self):
+        return self.couleur
 
 
-mazda_rouge = Voiture
+mazda_rouge = Voiture()
 couleur = mazda_rouge.recuperer_couleur()

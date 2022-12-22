@@ -13,8 +13,16 @@ Changer un attribut avec une méthode
     ⚠️ Pour valider l'exercice, l'attribut prix doit être mis à jour et être
     égal à 35,000 à la fin du script.
 """
+
+
 class Voiture:
-    pass
+    def __init__(self, marque, prix):
+        self.marque = marque
+        self.prix = prix
+
+    def changer_prix(self, prix):
+        if isinstance(prix, int):
+            self.prix = prix
 
 
 voiture = Voiture(marque="Mazda", prix=30000)

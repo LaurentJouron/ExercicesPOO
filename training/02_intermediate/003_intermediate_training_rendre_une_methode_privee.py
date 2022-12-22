@@ -18,20 +18,22 @@ Astuces:
     ce qu'est une méthode privée, cet exercice est très simple à réaliser.
     Il ne faut modifier que très peu de choses dans le code initial.
 """
+
+
 class MachineACafe:
     def __init__(self):
         self.temperature_eau = 0
 
-    def chauffe_eau(self):
+    def __chauffe_eau(self):
         self.temperature_eau = 100
         print("L'eau est chaude.")
 
-    def moud_cafe(self):
+    def __moud_cafe(self):
         print("Café moulu avec succès.")
 
     def fait_du_cafe(self):
-        self.moud_cafe()
-        self.chauffe_eau()
+        self.__moud_cafe()
+        self.__chauffe_eau()
         print("Le café est prêt")
 
 
