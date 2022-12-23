@@ -47,16 +47,3 @@ employes = [
             ("Julie", "Martin", "Développeur Python", 42000),
             ("Éric", "Dupont", "Chef de projet", 50000),
             ]
-
-
-# Moi
-# for employe in employes:
-#     Entreprise.employes.append(employe)
-# print(Entreprise.employes)
-
-
-# Correction
-for employe_data in employes:
-    employe = Employe(*employe_data)
-    Entreprise.employes.append(employe)
-print(Entreprise.employes)

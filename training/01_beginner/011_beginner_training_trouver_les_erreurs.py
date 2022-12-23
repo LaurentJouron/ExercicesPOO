@@ -17,12 +17,11 @@ class Cube:
         self.y = y
         self.z = z
 
-    def set_position(self, x, y, z):
-        self.x = x
-        self.y = y
-        self.z = z
+    def set_position(x, y, z):
+        x = x
+        y = y
+        z = z
 
 
 cube = Cube()
 cube.set_position(1, 2, 3)
-print(cube.x, cube.y, cube.z)

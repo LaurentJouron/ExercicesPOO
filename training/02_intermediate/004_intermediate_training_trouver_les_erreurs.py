@@ -1,11 +1,17 @@
-class Voiture:
-    def __init__(self):
-        self.marque = "Mazda"
-        self.couleur = "Rouge"
+"""
+Trouver les erreurs
+    Le code de départ de cet exercice comporte plusieurs erreurs.
+    À vous de les identifier et les corriger pour que le script fonctionne.
+"""
 
-    def recuperer_couleur(self):
-        return self.couleur
+def Voiture:
+    class _init_(self):
+        marque = "Mazda"
+        couleur = "Rouge"
+
+    def recuperer_couleur():
+        return couleur
 
 
-mazda_rouge = Voiture()
+mazda_rouge = Voiture
 couleur = mazda_rouge.recuperer_couleur()
